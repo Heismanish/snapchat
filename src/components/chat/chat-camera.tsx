@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 
 import SelectUserDialog from "./select-user-dialog";
-import ImagePreviewDialog from "./image-preview-dialog";
+import ImagePreviewDialogInChat from "./send-image-from-chat";
 
 const ChatCamera = () => {
   const imgRef = useRef<HTMLInputElement>(null);
@@ -55,7 +55,7 @@ const ChatCamera = () => {
         </p>
       </div>
       {step === 0 ? (
-        <ImagePreviewDialog
+        <ImagePreviewDialogInChat
           selectedFile={selectedFile}
           onClose={closeDialog}
           onImageChange={() => imgRef.current!.click()}
