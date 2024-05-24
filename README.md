@@ -2,9 +2,8 @@
 
 ## TODO:
 
-1. Send image by clicking on camera in a particular chat
-2. create a new chat with using email of a user
-3. Search funcitonality in sidebar(filter based on names)
+1. ~~Send image by clicking on camera in a particular chat~~
+2. Search funcitonality in sidebar(filter based on names)
 
 ## Getting Started
 
