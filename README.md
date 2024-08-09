@@ -1,10 +1,5 @@
 # SnapChat-Web
 
-## TODO:
-
-1. ~~Send image by clicking on camera in a particular chat~~
-2. Search funcitonality in sidebar(filter based on names)
-
 ## Getting Started
 
 First, run the development server:
