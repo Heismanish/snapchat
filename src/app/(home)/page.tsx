@@ -8,13 +8,13 @@ export default async function Home() {
   const session = await auth();
 
   return (
-    <main className="bg-[#fffc00] ">
+    <main className="bg-[#7a53f0] ">
       <div className="min-h-screen flex items-center justify-center max-w-7xl mx-auto flex-col">
         <Navbar />
         <main className="flex flex-1 flex-col md:flex-row items-center justify-center px-8 mt-4">
           <div className="flex-1 md:text-left text-center h-full">
             <h1 className="text-4xl md:text-6xl font-bold">
-              SnapNext 4 programmers!
+              InstaNext 4 programmers!
             </h1>
             <p className="mt-4 text-xl font-semibold">
               Share your code with your friends to get feedback and improve your
@@ -30,7 +30,7 @@ export default async function Home() {
                 asChild
                 className="mt-4 bg-black text-white flex items-center rounded-lg gap-2 mx-auto md:mx-0"
               >
-                <Link href={"/login"} className="max-w-max">
+                <Link href={"/login"} className="max-w-max ">
                   <Image
                     src="/logo.svg"
                     width={20}

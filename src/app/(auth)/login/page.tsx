@@ -6,7 +6,7 @@ export default async function Login() {
   return (
     <>
       <h1 className="text-2xl font-bold text-center mb-4">
-        Log in to SnapNext
+        Log in to InstaNext
       </h1>
       <LoginCard />
     </>

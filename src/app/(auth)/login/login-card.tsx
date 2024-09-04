@@ -19,7 +19,7 @@ export default function LoginCard() {
         <LoginButton />
       </form>
       <div className="mt-4 text-center text-[13px]">
-        <span className="font-semibold">New To SnapNext? </span>
+        <span className="font-semibold">New To InstaNext? </span>
         <Link
           className="text-blue-500 hover:underline text-[13px] mr-1 "
           href="/signup"

@@ -212,7 +212,7 @@ const handleSendMessage = async (imgUrl: string) => {
   try {
     // fetch the image and convert it to a blob
     const blob = await fetch(imgUrl).then((resolve) => resolve.blob());
-    // from the blob the url of the image is generated
+    // from blob, the url of the image is generated
     const dataUrl = await readFileAsDataURL(blob);
     // message is sent as an image
     await sendMessageAction(id, dataUrl, "image");
